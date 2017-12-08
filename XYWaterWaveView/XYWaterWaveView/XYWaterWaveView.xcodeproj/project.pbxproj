@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20DDF0521FDA4127008790AF /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DDF0511FDA4127008790AF /* avatar.jpg */; };
+		20EACB021FD1036900AC438C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EACB011FD1036900AC438C /* AppDelegate.m */; };
+		20EACB051FD1036900AC438C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EACB041FD1036900AC438C /* ViewController.m */; };
+		20EACB081FD1036900AC438C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EACB061FD1036900AC438C /* Main.storyboard */; };
+		20EACB0A1FD1036900AC438C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EACB091FD1036900AC438C /* Assets.xcassets */; };
+		20EACB0D1FD1036900AC438C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EACB0B1FD1036900AC438C /* LaunchScreen.storyboard */; };
+		20EACB101FD1036900AC438C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EACB0F1FD1036900AC438C /* main.m */; };
+		20EACB181FD1037700AC438C /* XYWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EACB171FD1037700AC438C /* XYWaterWaveView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20DDF0511FDA4127008790AF /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
+		20EACAFD1FD1036900AC438C /* XYWaterWaveView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYWaterWaveView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EACB001FD1036900AC438C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20EACB011FD1036900AC438C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20EACB031FD1036900AC438C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20EACB041FD1036900AC438C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20EACB071FD1036900AC438C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20EACB091FD1036900AC438C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20EACB0C1FD1036900AC438C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20EACB0E1FD1036900AC438C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20EACB0F1FD1036900AC438C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20EACB161FD1037700AC438C /* XYWaterWaveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYWaterWaveView.h; sourceTree = "<group>"; };
+		20EACB171FD1037700AC438C /* XYWaterWaveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYWaterWaveView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20EACAFA1FD1036900AC438C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20EACAF41FD1036900AC438C = {
+			isa = PBXGroup;
+			children = (
+				20EACAFF1FD1036900AC438C /* XYWaterWaveView */,
+				20EACAFE1FD1036900AC438C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20EACAFE1FD1036900AC438C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20EACAFD1FD1036900AC438C /* XYWaterWaveView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20EACAFF1FD1036900AC438C /* XYWaterWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				20DDF0511FDA4127008790AF /* avatar.jpg */,
+				20EACB161FD1037700AC438C /* XYWaterWaveView.h */,
+				20EACB171FD1037700AC438C /* XYWaterWaveView.m */,
+				20EACB001FD1036900AC438C /* AppDelegate.h */,
+				20EACB011FD1036900AC438C /* AppDelegate.m */,
+				20EACB031FD1036900AC438C /* ViewController.h */,
+				20EACB041FD1036900AC438C /* ViewController.m */,
+				20EACB061FD1036900AC438C /* Main.storyboard */,
+				20EACB091FD1036900AC438C /* Assets.xcassets */,
+				20EACB0B1FD1036900AC438C /* LaunchScreen.storyboard */,
+				20EACB0E1FD1036900AC438C /* Info.plist */,
+				20EACB0F1FD1036900AC438C /* main.m */,
+			);
+			path = XYWaterWaveView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20EACAFC1FD1036900AC438C /* XYWaterWaveView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EACB131FD1036900AC438C /* Build configuration list for PBXNativeTarget "XYWaterWaveView" */;
+			buildPhases = (
+				20EACAF91FD1036900AC438C /* Sources */,
+				20EACAFA1FD1036900AC438C /* Frameworks */,
+				20EACAFB1FD1036900AC438C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYWaterWaveView;
+			productName = XYWaterWaveView;
+			productReference = 20EACAFD1FD1036900AC438C /* XYWaterWaveView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20EACAF51FD1036900AC438C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = wing;
+				TargetAttributes = {
+					20EACAFC1FD1036900AC438C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 20EACAF81FD1036900AC438C /* Build configuration list for PBXProject "XYWaterWaveView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20EACAF41FD1036900AC438C;
+			productRefGroup = 20EACAFE1FD1036900AC438C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20EACAFC1FD1036900AC438C /* XYWaterWaveView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20EACAFB1FD1036900AC438C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DDF0521FDA4127008790AF /* avatar.jpg in Resources */,
+				20EACB0D1FD1036900AC438C /* LaunchScreen.storyboard in Resources */,
+				20EACB0A1FD1036900AC438C /* Assets.xcassets in Resources */,
+				20EACB081FD1036900AC438C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20EACAF91FD1036900AC438C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EACB051FD1036900AC438C /* ViewController.m in Sources */,
+				20EACB101FD1036900AC438C /* main.m in Sources */,
+				20EACB181FD1037700AC438C /* XYWaterWaveView.m in Sources */,
+				20EACB021FD1036900AC438C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20EACB061FD1036900AC438C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20EACB071FD1036900AC438C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20EACB0B1FD1036900AC438C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20EACB0C1FD1036900AC438C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20EACB111FD1036900AC438C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20EACB121FD1036900AC438C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20EACB141FD1036900AC438C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79NTHX7F84;
+				INFOPLIST_FILE = XYWaterWaveView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuncai.XYWaterWaveView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20EACB151FD1036900AC438C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 79NTHX7F84;
+				INFOPLIST_FILE = XYWaterWaveView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuncai.XYWaterWaveView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20EACAF81FD1036900AC438C /* Build configuration list for PBXProject "XYWaterWaveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EACB111FD1036900AC438C /* Debug */,
+				20EACB121FD1036900AC438C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20EACB131FD1036900AC438C /* Build configuration list for PBXNativeTarget "XYWaterWaveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EACB141FD1036900AC438C /* Debug */,
+				20EACB151FD1036900AC438C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20EACAF51FD1036900AC438C /* Project object */;
+}
